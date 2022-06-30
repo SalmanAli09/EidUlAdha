@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eid ul adha calendar</title>
+    <link rel="shortcut icon" href="../favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="datacheck.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,100;1,400;1,600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+</head>
+<body>
+  <div id="main_div">
+    <center><h1 id="heading_main"><i class="fa fa-search" aria-hidden="true"></i> &nbsp; <u>What are you looking For? </u></h1></center>
+     <center> <button id="btn_1" onclick="calldate()"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> How many days Left in Eid ul adha?</button></center>
+   <div id="datetimecontainer" class="datetimecontainer_display">
+       <div id="datecontainer"></div>
+       <div id="datecontainer_2"></div>
+       <div id="datecontainer_1"></div>
+       <div id="datecontainer_btn"><button id="bth_1" onclick="calluserinterest()"> <i class="fa fa-check" aria-hidden="true"></i> Select That day</button>  &nbsp; &nbsp;<a href="../data/datapage.html" id="bth"><i class="fa fa-home" aria-hidden="true"></i> Back to Home </a></div>
+   </div>
+   <div id="condition">
+    <center> <button id="btn_2" onclick="callCondition()"><i class="fa fa-cutlery" aria-hidden="true"></i> Select the day to sacrifice your animal!</button></center>
+   <div id="select">
+    <h1>Please select your prior day to set the reminder.</h1>
+    <div id="firstday"><button onclick="fd()" id="fd">First Day</button></div>
+    <div id="secondday"><button onclick="sd()" id="sd">Second Day</button></div>
+    <div id="lastday"><button onclick="ld()" id="ld">Third day</button></div>
+    <div id="status"></div>
+   </div>
+   </div>
+  
+  </div>
+ 
+</body>
+<script src="app.js"></script>
+</html>

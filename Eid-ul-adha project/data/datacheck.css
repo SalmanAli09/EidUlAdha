@@ -1,0 +1,276 @@
+html {
+  background-color: lightblue;
+}
+#main_div {
+  height: max-content;
+  width: 650px;
+  border: 1px solid black;
+  margin: 0px auto;
+  margin-top: 50px !important;
+  border-radius: 15px;
+}
+#datetimecontainer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-spacing: 100px;
+  margin: 10px;
+}
+.datetimecontainer_display {
+  display: none;
+}
+#datecontainer {
+  padding-top: 50px !important;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  padding: 5px;
+  margin: 10px;
+  color: black !important;
+  display: none;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+}
+#datecontainer:hover {
+  padding-top: 50px !important;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  padding: 5px;
+  margin: 10px;
+  color: black !important;
+  display: none;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(255, 255, 0, 0.3);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#datecontainer_1 {
+  padding-top: 50px !important;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  padding: 5px;
+  margin: 10px;
+  color: black !important;
+  display: none;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+}
+#datecontainer_2 {
+  padding-top: 50px !important;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  padding: 5px;
+  margin: 10px;
+  color: black !important;
+  display: none;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+}
+#datecontainer_2:hover {
+  padding-top: 50px !important;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  padding: 5px;
+  margin: 10px;
+  color: black !important;
+  display: none;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(255, 255, 0, 0.3);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#datecontainer_1:hover {
+  padding-top: 50px !important;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  padding: 5px;
+  margin: 10px;
+  color: black !important;
+  display: none;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(255, 255, 0, 0.3);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#datecontainer_btn {
+  display: none;
+  text-align: center;
+  height: max-content;
+  width: max-content;
+  padding: 5px;
+  margin-top: 7%;
+  font-size: 20px;
+  background-color: lightblue;
+  font-family: "Poppins", sans-serif;
+}
+#bth {
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 25px;
+  border: 1px solid black;
+  padding: 7px;
+  font-weight: normal;
+}
+#bth:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#bth_1 {
+  border-radius: 8px;
+  background: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 25px;
+  border: 1px solid black;
+  padding: 10px;
+  font-weight: normal;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#bth_1:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  background: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.3);
+
+}
+#btn_1 {
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 25px;
+  height: 70px;
+  width: 500px;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#btn_1:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 25px;
+  height: 70px;
+  width: 500px;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#btn_2 {
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 25px;
+  height: 70px;
+  width: 500px;
+  text-align: center;
+  margin: 0px auto;
+  margin-bottom: 60px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#btn_2:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+  rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 25px;
+  height: 70px;
+  width: 500px;
+  text-align: center;
+  margin: 0px auto;
+  margin-bottom: 60px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#select{
+  padding: -1px;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  display: none;
+  margin-bottom: 80px;
+  background-color: lightblue;
+  cursor: pointer !important;
+}
+#fd , #sd , #ld{
+  height: 40px;
+  width: 180px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+
+}
+#fd:hover , #sd:hover , #ld:hover{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+  rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  height: 40px;
+  width: 180px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+
+}
+h1{
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+#heading_main{
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+}
